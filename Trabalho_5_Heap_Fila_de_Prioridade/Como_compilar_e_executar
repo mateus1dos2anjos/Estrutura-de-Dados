@@ -1,0 +1,5 @@
+Como executar código em C++:
+
+g++ -Wall -g main.cpp heap.cpp -o heap
+
+./heap
