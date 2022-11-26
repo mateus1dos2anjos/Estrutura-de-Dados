@@ -314,8 +314,10 @@ Avl *avl_get_element(Avl *r, int v)
   else if (v > r->key)
     return avl_get_element(r->right, v);
   else
+  {
     cout << "Resultado da busca: " << r->key << endl;
-  return r;
+    return r;
+  }
 }
 
 // 5. Liberar a estrutura de dados;
