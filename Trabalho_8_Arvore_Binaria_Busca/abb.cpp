@@ -151,8 +151,10 @@ Abb *abb_get_element(Abb *r, int v)
   else if (v > r->key)
     return abb_get_element(r->right, v);
   else
+  {
     cout << "Resultado da busca: " << r->key << endl;
-  return r;
+    return r;
+  }
 }
 
 // 6. Liberar a estrutura de dados;
