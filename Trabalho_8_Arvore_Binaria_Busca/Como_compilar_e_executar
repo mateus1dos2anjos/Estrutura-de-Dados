@@ -1,4 +1,4 @@
-Como executar código em C++:
+Como executar o código em C++:
 
 g++ -Wall -g main.cpp abb.cpp -o abb
 
