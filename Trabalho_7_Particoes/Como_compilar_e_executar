@@ -1,5 +1,5 @@
 Como executar código em C++:
 
-g++ -Wall -g main.cpp partitions.cpp -o partitions
+g++ -Wall -g disjoint_set.cpp -o disjoint_set
 
-./partitions
+./disjoint_set
