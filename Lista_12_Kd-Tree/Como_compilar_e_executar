@@ -1,4 +1,4 @@
-Como executar código em C++:
+Como executar código em C++ :
 
 g++ -Wall -g kdt.cpp -o kdt
 
